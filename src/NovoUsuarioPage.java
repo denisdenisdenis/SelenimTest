@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 class NovoUsuarioPage {
 
     private WebDriver driver;
-    												//para usarmos o driver da classe Systemtest, precisamos passalo pra ca
+    												//para usarmos o driver da classe Systemtest, precisamos passalo pra ca.
     public NovoUsuarioPage(WebDriver driver) {		// criamos um construtor q exige receber um objeto driver do tipo webdriver de qem invocalo
         this.driver = driver;						// e fazemos nossa classe ter um atribto driver do tipo webdriver qe atribuimos o valor do objeto recebido pelo contrutor. 
     }
